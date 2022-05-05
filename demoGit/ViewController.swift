@@ -16,8 +16,14 @@ class ViewController: UIViewController {
         view.addSubview(view2)
         view2.frame = CGRect(x: view.center.x, y: view.center.y, width: 200, height: 200)
         view2.backgroundColor = .red
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(tapView2))
+        view2.addGestureRecognizer(gesture)
+        view.isUserInteractionEnabled = true
     }
 
+    @objc func tapView2() {
+        print("tapped")
+    }
 
 }
 
