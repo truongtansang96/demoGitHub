@@ -18,6 +18,10 @@ class ViewController: UIViewController {
         view2.backgroundColor = .red
         let gesture = UITapGestureRecognizer(target: self, action: #selector(tapped))
         //master cố tình tạo merge coflict cho dev
+        
+        
+        //master cố tình tạo merge conflict
+        
     }
 
 
