@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         let gesture = UITapGestureRecognizer(target: self, action: #selector(tapView2))
         view2.addGestureRecognizer(gesture)
         view.isUserInteractionEnabled = true
-        //dev
+        //dev commit green
     }
 
     @objc func tapView2() {
