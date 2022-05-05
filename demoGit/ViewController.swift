@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         view2.addGestureRecognizer(gesture)
         view.isUserInteractionEnabled = true
         //dev commit green
-        // master commit
+        // master commit blue
         
     }
 
